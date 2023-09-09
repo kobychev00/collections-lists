@@ -8,5 +8,8 @@ public class CollListCpntroller {
     @GetMapping("/")
     public String hello() {
         return "hello";
+    } @GetMapping("/1")
+    public String one() {
+        return "one";
     }
 }
